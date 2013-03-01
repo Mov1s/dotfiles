@@ -1,0 +1,83 @@
+!-------------------------------------------------------------------------------
+! urxvt
+!-------------------------------------------------------------------------------
+
+! General ----------------------------------------------------------------------
+
+URxvt.termName:                 	rxvt-unicode
+
+Xft.dpi:                            96
+Xft.antialias:              		true
+Xft.hinting:            			full
+Xft.hintstyle:              		hintslight
+Xft.rgba:                           rgb
+
+Xcursor.theme:          			Neutral_Plus_Inverted
+Xcursor.size:           			10
+ 
+URxvt.imLocale:                 	bs_BA.UTF-8
+URxvt.scrollBar:                	false
+URxvt.saveLines:                	32767
+
+URxvt.transparent: 					true
+URxvt.shading: 						30 
+
+! Cursor -----------------------------------------------------------------------
+
+URxvt.cursorBlink:          		true
+URxvt.cursorColor:          		#FFFFFF
+ 
+ 
+URxvt.visualBell:               	true
+ 
+! Url Launcher -----------------------------------------------------------------
+
+URxvt.perl-lib:           			/usr/lib/urxvt/perl/
+URxvt.perl-ext-common:    			default,matcher
+URxvt.urlLauncher:        			/usr/bin/swiftweasel
+URxvt.matcher.button:     			1
+URxvt.matcher.pattern.1:  			\\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+ 
+! Font -------------------------------------------------------------------------
+
+!URxvt.font:                 		xft:Monaco:pixelsize=12:antialias=true:hinting=true
+!URxvt.boldFont:                 	xft:Monaco:pixelsize=12:antialias=true:bold:hinting=true
+!URxvt.italicFont:               	xft:Monaco:pixelsize=12:antialias=true:italic:autohint=true:hinting=true
+!URxvt.bolditalicFont:           	xft:Monaco:pixelsize=12:antialias=true:bold:italic:autohint=true:hinting=true
+ 
+! Colors -----------------------------------------------------------------------
+
+*background:	#2C2C2A
+*foreground:	#ABAA98
+ 
+! Black
+*color0:        #0F0E0F
+*color8:        #0F0E0F
+
+! Red
+*color1:        #FF3D73
+*color9:        #FF3D73
+
+! Green
+*color2:        #A6E22E
+*color10:       #A6E22E
+
+! Yellow
+*color3:        #FD971F
+*color11:       #FD971F
+
+! Blue
+*color4:        #00B9D7
+*color12:       #00B9D7
+
+! Mangenta
+*color5:        #780A49
+*color13:       #780A49
+
+! Cyan
+*color6:        #F9F5C2
+*color14:       #F9F5C2
+
+! White
+*color7:        #F9F5C2
+*color15:       #F9F5C2

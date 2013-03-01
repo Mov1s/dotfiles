@@ -1,0 +1,23 @@
+# Theme: CathexiS
+# Description: Simple, minimal, distraction free foundation for building your desktop experience...
+# Author: Samir Kahvedzic < akirapowered@gmail.com >
+# Web: http://samirkahvedzic.deviantart.com
+
+
+##############################################
+# Settings
+##############################################
+
+background no
+out_to_x no
+out_to_console yes
+use_xft yes
+update_interval 1.0
+total_run_times 0
+override_utf8_locale yes
+
+##############################################
+#  Output
+##############################################
+TEXT 
+^fg(\#ABAA98)RAM: ^fg(\#FF3D73)$mem^fg(\#ABAA98)/^fg(\#00B9D7)$memmax^fg(\#ABAA98) | ${color a7a7a7}Swap: ^fg(\#FF3D73)$swap^fg(\#ABAA98)/^fg(\#00B9D7)$swapfree ^fg(\#ABAA98)| Root: ^fg(\#FF3D73)${fs_used /}^fg(\#ABAA98)/^fg(\#00B9D7)${fs_free /} ^fg(\#ABAA98)|  Home: ^fg(\#FF3D73)${fs_used /home}^fg(\#ABAA98)/^fg(\#00B9D7)${fs_free /home} ^fg(\#ABAA98)| UpTime ^fg(\#ABAA98)$UpTime
