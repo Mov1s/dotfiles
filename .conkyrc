@@ -1,8 +1,7 @@
-# Theme: CathexiS
-# Description: Simple, minimal, distraction free foundation for building your desktop experience...
-# Author: Samir Kahvedzic < akirapowered@gmail.com >
-# Web: http://samirkahvedzic.deviantart.com
-
+# Theme: Monokai Modified
+# Description: Monokai inspired colors in a simple bottom bar
+# Author: Ryan Popa < pope790@gmail.com >
+# Based on the CathexiS theme by Samir Kahvedzic < akirapowered@gmail.com >
 
 ##############################################
 # Settings
@@ -12,7 +11,7 @@ background no
 
 # Use Xft?
 use_xft yes
-xftfont AvantGarde LT Medium:size=7
+xftfont :size=7
 xftalpha 1
 
 # Update interval in seconds

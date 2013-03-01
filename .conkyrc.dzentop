@@ -1,8 +1,6 @@
-# Theme: CathexiS
-# Description: Simple, minimal, distraction free foundation for building your desktop experience...
-# Author: Samir Kahvedzic < akirapowered@gmail.com >
-# Web: http://samirkahvedzic.deviantart.com
-
+# Theme: Monokai Modified
+# Description: Monokai inspired colors in a simple bar for piping to dzen
+# Author: Ryan Popa < pope790@gmail.com >
 
 ##############################################
 # Settings
@@ -20,4 +18,4 @@ override_utf8_locale yes
 #  Output
 ##############################################
 TEXT 
-^fg(\#ABAA98)RAM: ^fg(\#FF3D73)$mem^fg(\#ABAA98)/^fg(\#00B9D7)$memmax^fg(\#ABAA98) | ${color a7a7a7}Swap: ^fg(\#FF3D73)$swap^fg(\#ABAA98)/^fg(\#00B9D7)$swapfree ^fg(\#ABAA98)| Root: ^fg(\#FF3D73)${fs_used /}^fg(\#ABAA98)/^fg(\#00B9D7)${fs_free /} ^fg(\#ABAA98)|  Home: ^fg(\#FF3D73)${fs_used /home}^fg(\#ABAA98)/^fg(\#00B9D7)${fs_free /home} ^fg(\#ABAA98)| UpTime ^fg(\#ABAA98)$UpTime
+^fg(\#ABAA98)CPU 1: ^fg(\#FF3D73)${cpu cpu0}% ^fg(\#ABAA98)CPU 2: ^fg(\#FF3D73)${cpu cpu1}% ^fg(\#ABAA98)| ^fg(\#ABAA98)${time %I:%M %P}
