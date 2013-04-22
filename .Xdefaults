@@ -34,7 +34,7 @@ URxvt.visualBell:               	true
 
 URxvt.perl-lib:           			/usr/lib/urxvt/perl/
 URxvt.perl-ext-common:    			default,matcher
-URxvt.urlLauncher:        			/usr/bin/swiftweasel
+URxvt.url-launcher:        			/usr/bin/chromium
 URxvt.matcher.button:     			1
 URxvt.matcher.pattern.1:  			\\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
  
