@@ -1,0 +1,10 @@
+abstracts = {
+
+timestamp = "%b$*%n";
+msgnick = "<$0$1-> %|";
+
+ownmsgnick = "%g{msgnick $0 $1-}%n";
+
+pubmsgmenick = "%r{msgnick $0 $1-}%r";
+menick = "%r$*%n";
+};
