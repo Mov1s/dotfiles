@@ -102,4 +102,4 @@ mpd_port 6600
 #  Output
 ##############################################
 TEXT 
- ${color}Kernel: ${color F9F5C2}$kernel $alignc ${color ABAA98}RAM: ${color FF3D73}$mem${color}/${color 00B9D7}$memmax   ${color}Swap: ${color FF3D73}$swap${color}/${color 00B9D7}$swapfree   ${color}Root: ${color FF3D73}${fs_used /}${color}/${color 00B9D7}${fs_free /}   ${color}Home: ${color FF3D73}${fs_used /home}${color}/${color 00B9D7}${fs_free /home} $alignr ${color}UpTime: ${color F9F5C2}$UpTime	
+ ${color}Kernel: ${color F9F5C2}$kernel   ${color}UpTime: ${color F9F5C2}$UpTime   $alignc ${color}CPU 1: ${color FF3D73}${cpu cpu0}%   ${color}CPU 2: ${color FF3D73}${cpu cpu1}%   ${color ABAA98}RAM: ${color FF3D73}$mem${color}/${color 00B9D7}$memmax   ${color}Root: ${color FF3D73}${fs_used /}${color}/${color 00B9D7}${fs_size /}   ${color}Home: ${color FF3D73}${fs_used /home}${color}/${color 00B9D7}${fs_size /home} $alignr ${color F9F5C2}${time %I:%M %P}

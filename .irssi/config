@@ -258,9 +258,9 @@ statusbar = {
 };
 settings = {
   core = {
-    real_name = "Ryan Popa";
-    user_name = "ryanpopa";
-    nick = "ryanpopa";
+    real_name = "Mov1s";
+    user_name = "Mov1s_Arch";
+    nick = "Mov1s_Arch";
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "fe-common/core" = { theme = "movis.theme"; };
